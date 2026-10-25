@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<testsuite name="com.pynexia.week1.login.AppFlowTest" tests="1" failures="0" errors="0" skipped="0" time="12.607" timestamp="2026-10-24T23:55:33" hostname="localhost">
+  <properties>
+    <property name="device" value="Pixel_8(AVD) - 17" />
+    <property name="flavor" value="" />
+    <property name="project" value=":login" />
+  </properties>
+  <testcase name="validatesAuthenticatesAndSignsOut" classname="com.pynexia.week1.login.AppFlowTest" time="9.802" />
+</testsuite>

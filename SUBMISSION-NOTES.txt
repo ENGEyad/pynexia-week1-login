@@ -1,0 +1,9 @@
+Native Android Simple Login App built with Java and XML using EditText, Button and TextView. Required-field validation and credential checks provide clear feedback. A successful login opens HomeActivity through an explicit Intent. Sign out clears the navigation stack and returns to an empty login form.
+
+Demo credentials: username learner OR email learner@example.com; password Learn@123. Username/email matching ignores case and surrounding spaces; passwords must match exactly. This is a standalone educational demo with fixed public credentials, not a production authentication service. Accounts created in the separate Sign-Up App are not shared with this app.
+
+Run: open the source folder in Android Studio, sync Gradle, and run login on Android 8.0/API 26 or later. Test empty fields, incorrect credentials, successful login by username/email and sign out.
+
+Validation: debug APK built successfully; 2 JVM tests and 1 instrumentation test passed on a Pixel 8 emulator (Android 17/API 37). Lint completed with zero errors; warnings are documented. Source code, Gradle Wrapper, APK, screenshots and verification reports are included in the attached ZIP.
+
+Hosted URL: project showcase with actual screenshots and APK/PDF downloads; not a browser emulator. The ZIP also includes a bilingual implementation report.

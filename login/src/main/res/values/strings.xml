@@ -1,0 +1,22 @@
+<resources>
+    <string name="logo_description">Pynexia learning project logo</string>
+    <string name="eyebrow">PYNEXIA / WEEK 01</string>
+    <string name="app_name">Pynexia Login</string>
+    <string name="headline">Good to\nsee you again.</string>
+    <string name="intro">Sign in to your learning space.</string>
+    <string name="identity_label">Username or email</string>
+    <string name="identity_hint">Enter username or email</string>
+    <string name="password_label">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="login">Sign in</string>
+    <string name="demo">Try the demo account\nUsername: learner\nEmail: learner@example.com\nPassword: Learn@123</string>
+    <string name="note">Practice app · this demo does not connect to an online account.</string>
+    <string name="identity_error">Enter your username or email.</string>
+    <string name="password_error">Enter your password.</string>
+    <string name="invalid">Incorrect username/email or password. Try the demo account below.</string>
+    <string name="feedback_empty">Ready when you are.</string>
+    <string name="welcome">Welcome back,\nLearner.</string>
+    <string name="home_label">SIGNED IN</string>
+    <string name="home_body">You have successfully signed in to the demo learning space.</string>
+    <string name="logout">Sign out</string>
+</resources>

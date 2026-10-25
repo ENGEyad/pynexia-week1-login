@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" android:id="@+id/root"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true" android:importantForAutofill="noExcludeDescendants"
+    android:clipToPadding="false">
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="vertical" android:padding="28dp" >
+        <ImageView android:id="@+id/logo" android:layout_width="80dp" android:layout_height="80dp" android:src="@drawable/ic_logo" android:contentDescription="@string/logo_description"/><TextView style="@style/Eyebrow" android:text="@string/eyebrow" /><TextView style="@style/Title" android:text="@string/headline" /><TextView style="@style/Body" android:text="@string/intro" /><TextView style="@style/Label" android:text="@string/identity_label" android:labelFor="@+id/identity"/>
+    <EditText android:id="@id/identity" style="@style/Input" android:hint="@string/identity_hint"
+        android:inputType="textEmailAddress" android:imeOptions="actionNext" android:maxLength="254"/>
+    <TextView style="@style/Label" android:text="@string/password_label" android:labelFor="@+id/password"/>
+    <EditText android:id="@id/password" style="@style/Input" android:hint="@string/password_hint"
+        android:inputType="textPassword" android:imeOptions="actionNext" android:saveEnabled="false" android:maxLength="128"/>
+    <Button android:id="@+id/login" style="@style/PrimaryButton" android:text="@string/login" /><TextView style="@style/Body" android:text="@string/feedback_empty" android:id="@+id/feedback" android:accessibilityLiveRegion="polite"/><TextView style="@style/Body" android:text="@string/demo" android:background="@drawable/card" android:padding="24dp"/><TextView style="@style/Body" android:text="@string/note" />
+    </LinearLayout>
+</ScrollView>
