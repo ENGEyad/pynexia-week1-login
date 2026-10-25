@@ -12,7 +12,7 @@ jobs:
         shell: python
         run: |
           import hashlib, urllib.request
-          expected = {'index.html': '2e90f188df8aabffa99ce67059a5ed66abeeb2ed866a6a588e49e113a6aa36a4', 'style.css': '05e20b0bb4f1aeceed487f519408a3653367eda7afce70ff50f56a39dfdd5d3c', 'script.js': 'c0d9c2f92b8ee4dae3171f22298f0efa65efde3c45f9dd261195d76c2ca0bb31', 'downloads/Simple-Login-App.zip': '349b4d121bfb184f897b5436b57bd3e4715ada4bd4f210cde59bffc956f6db59', 'downloads/Simple-Login-App-Report.pdf': '40e2c169cdfb4ad6473b3886a7e737beca0f441e60ec056b536df6b2f50e8afd', 'downloads/Simple-Login-App.apk': '979f76fd8ce09e7e922cb9713b96f94054cb3b34ae75a1cea28ea1bb32b731de'}
+          expected = {'index.html': 'c666298dfea3e7de3bcf59252c40be4b2b5c77a97d9d79e4631d2da91537ccd0', 'style.css': '05e20b0bb4f1aeceed487f519408a3653367eda7afce70ff50f56a39dfdd5d3c', 'script.js': '3e1ed7d88b16a69dc44115e02b034066c1fdb99c27f9ad65601fcff7f5a1b5be', 'downloads/Simple-Login-App.zip': '349b4d121bfb184f897b5436b57bd3e4715ada4bd4f210cde59bffc956f6db59', 'downloads/Simple-Login-App-Report.pdf': '40e2c169cdfb4ad6473b3886a7e737beca0f441e60ec056b536df6b2f50e8afd', 'downloads/Simple-Login-App.apk': '979f76fd8ce09e7e922cb9713b96f94054cb3b34ae75a1cea28ea1bb32b731de'}
           base = 'https://engeyad.github.io/pynexia-week1-login/'
           for path, digest in expected.items():
               with urllib.request.urlopen(base + path, timeout=30) as response:
